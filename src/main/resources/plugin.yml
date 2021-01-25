@@ -1,0 +1,12 @@
+name: DoubleJump
+version: ${project.version}
+main: yt.sehrschlecht.doublejump.Doublejump
+api-version: 1.16
+description: An easy to use double jump & jump plates plugin.
+commands:
+  doublejump:
+    description: Toggles the double jump for a player. You need the permission doublejump.command
+    permission: doublejump.command
+    aliases:
+      - dj
+      - djump
